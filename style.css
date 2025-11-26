@@ -1,0 +1,30 @@
+
+:root {
+        --fundo-principal: rgb(252, 107, 158);
+    --texto: ;
+    --texto-inverso: ;
+    --destaque: ;
+    --destaque-inverso: ;
+    --fundo-card: ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var();
+    
+}
+
+header {
+    background-color: var(--fundo-principal);
+    height: 150px;
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+}
